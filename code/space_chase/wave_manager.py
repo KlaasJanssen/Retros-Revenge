@@ -44,7 +44,6 @@ class Wave_Manager:
         #print(self.next_wave_timer.time_elapsed)
         if self.next_wave_timer.update(dt):
             self.start_next_wave()
-            print("check")
 
 
 class Wave:
