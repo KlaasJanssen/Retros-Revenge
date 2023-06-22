@@ -19,7 +19,7 @@ class Game:
         self.background_manager = Space_Background()
         self.last_time = perf_counter()
 
-        self.change_state("space_chase")
+        #self.change_state("space_chase")
 
 
     def change_state(self, new_state):
