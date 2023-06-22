@@ -7,7 +7,7 @@ class Wave_Manager:
     def __init__(self, enemy_group, laser_group):
         self.enemy_group = enemy_group
         self.laser_group = laser_group
-        self.current_wave = 1
+        self.current_wave = 0
 
         self.next_wave_timer = Timer(3)
 
